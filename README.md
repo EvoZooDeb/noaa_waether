@@ -18,7 +18,8 @@ lon <- as.numeric(paste(substr((ws_data.df$lon),1,1),as.numeric(substr((ws_data.
 
 lat <- as.numeric(paste(substr((ws_data.df$lat),1,1),as.numeric(substr((ws_data.df$lat),2,7)),sep='')) / 1000
 
-## library(rworldmap)
+library(rworldmap)
+
 newmap <- getMap(resolution = "low")
 
 plot(newmap, xlim = c(-20, 59), ylim = c(-35, 71), asp = 1)
