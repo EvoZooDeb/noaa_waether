@@ -1,5 +1,5 @@
-# noaa_waether
 NOAA Weather Data Processing
+----------------------------
 
 # Usage:
 source('noaa_weather_station_data_processing.R')
