@@ -16,6 +16,8 @@
 # plot(newmap, xlim = c(-20, 59), ylim = c(-35, 71), asp = 1)
 # points(lon, lat, col = "black", bg= "red", cex = 1.2, pch=23)
 
+# Station codes and availability
+# https://www1.ncdc.noaa.gov/pub/data/noaa/isd-history.csv OR https://www1.ncdc.noaa.gov/pub/data/noaa/isd-history.txt
 
 
 # processing gzipped weather station file
