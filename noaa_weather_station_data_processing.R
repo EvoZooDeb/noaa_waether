@@ -80,7 +80,7 @@ processWSDataLine = function(line) {
     atm_see_pres <- substr(line,100,104) # ATMOSPHERIC-PRESSURE-OBSERVATION sea level pressure
     atm_see_pres_qc <- substr(line,105,105) # ATMOSPHERIC-PRESSURE-OBSERVATION sea level pressure quality code
     
-    ws_line <- data.frame(tot,usaf,wban,datum,utc_time,sflag,lat,lon,greptc,eled,wscl,mpo,wind_dir,wind_dir_qc,wind_tc,wind_tc,wind_sp_rate,wind_sp_qc,sky_chd,sky_c_qc,sky_cdc,sky_cc,vis_dd,vis_qc,vis_vc,vis_qvc,air_temp,air_temp_qc,air_dewp_temp,air_dewp_qc,atm_see_pres,atm_see_pres_qc)
+    ws_line <- data.frame(tot,usaf,wban,datum,utc_time,sflag,lat,lon,greptc,eled,wscl,mpo,wind_dir,wind_dir_qc,wind_tc,wind_sp_rate,wind_sp_qc,sky_chd,sky_c_qc,sky_cdc,sky_cc,vis_dd,vis_qc,vis_vc,vis_qvc,air_temp,air_temp_qc,air_dewp_temp,air_dewp_qc,atm_see_pres,atm_see_pres_qc)
     
     return(ws_line)
 }
